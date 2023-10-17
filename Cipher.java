@@ -2,7 +2,7 @@ package xiangmu;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
-public class Cipher {
+public class Cipher {//代码第二次提交注释
 	String plaintext;
 	String ciphertext;
 	
