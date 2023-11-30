@@ -10,6 +10,7 @@ public class main {
 		while(flag) {
 			Scanner scan=new Scanner(System.in);
                                                 System.out.println("lgy6周修改");
+			System.out.println("ZCJ修改LGY的代码");
 			System.out.println("--------------");
 			System.out.println("欢迎使用密码管理系统");
 			System.out.println("--------------");
