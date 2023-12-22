@@ -36,7 +36,7 @@ public class Cipher {
 		}
 		for(int i=0;i<List1.size();i++) {
 			char plainChar=(char) List1.get(i);
-			ascnum=(int)plainChar+i+4;
+			ascnum=(int)plainChar+i+6;
 			List1.set(i,(char)ascnum);
 		}
 		firstnum=(char) List1.get(0);
@@ -71,7 +71,7 @@ public class Cipher {
 		List2.set(size, firstnum);
 		for(int i=0;i<List2.size();i++) {
 			char plainChar=(char) List2.get(i);
-			ascnum=(int)plainChar-i-4;
+			ascnum=(int)plainChar-i-6;
 			List2.set(i,(char)ascnum);
 		}
 		System.out.println("解密的结果是");
